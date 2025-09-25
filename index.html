@@ -10,6 +10,10 @@
       tailwind.config = {
         theme: {
           extend: {
+            screens: {
+              '3xl': '1920px', // For Full HD TVs/Monitors
+              '4xl': '2560px', // For QHD/larger screens
+            },
             animation: {
               'fade-in': 'fadeIn 0.5s ease-out forwards',
               'fade-in-down': 'fadeInDown 0.5s ease-out forwards',
